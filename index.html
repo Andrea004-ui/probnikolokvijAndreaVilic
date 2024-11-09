@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Probni kolokvij</title>
+		<link rel="stylesheet" href="stil.css"/>
+
+
+	</head>
+<body>
+<table class="tablica1">
+	<tr>
+		<td>
+			<ol>
+				<li><a href="">Forma</a></li>
+				<li><a href="#tablica">Tablica</a></li>
+				<li><a href="#paragraf">Paragraf</a></li>
+				<li><a href="https://www.grf.unizg.hr" target="_blank">Grafički fakultet</a></li>
+			</ol>
+		
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<h1 id="forma">FORMA</h1>
+		
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<form action="">
+		
+		<label>Ime:</label>
+			<input type="text" name="ime" required autofocus><br>
+			
+			<label>Pin:</label> <input type="password" name="pin" maxlength="4"  required><br>
+			<label>Datum rođenja:</label> <input type="date" name="Rođendan"><br>
+			<label>E-mail: </label><input type="E-mail" name="E-mail" placeholder="ime@domena.com" required><br>
+			<label>Web adresa: </label><input type="url" name="webpage" placeholder="http://www.site.com" required>
+			<label>Kolokvij:</label>
+		<fieldset>  
+			<input type="radio" name="Kolokvij" value="K1">K1<br>
+			<input type="radio" name="Kolokvij" value="K2">K2<br>
+			<input type="radio" name="Kolokvij" value="K3">K3<br>
+			
+			
+		</fieldset>
+		<label>Gradivo:</label>
+	<fieldset>
+			<input type="checkbox" name="Gradivo" value="Tablice">Tablice<br>
+			<input type="checkbox" name="Gradivo" value="Forme">Forme<br>
+			<input type="checkbox" name="Gradivo" value="Animacija">Animacija<br>
+			<input type="checkbox" name="Gradivo" value="Video">Video<br>
+	</fieldset>	
+		<label>Koju ocjenu očekujete?</label>
+		 <input type="text" id="ocjena" name="Koju ocjenu očekujete" list="ocjene" placeholder="Unesite ocjenu">
+
+    <datalist id="ocjene">
+        <option value="odličan">
+        <option value="vrlo dobar">
+        <option value="dobar">
+        <option value="dovoljan">
+        <option value="nedovoljan">
+    </datalist>
+	<label>Odaberite boju:</label>
+	<input type="color" name="boja" value="#FF55A3"><br>
+	<input type="reset" value="Poništi">
+	<input type="submit" value="Prihvati">
+
+		</form>
+		</td>
+	</tr>
+<tr>
+	<td>
+	<h1 id="tablica">TABLICA 2</h1>
+	</td>
+</tr>
+<tr>
+		<td>
+		<table class="tablica2">
+		<tr id="r1">
+			<td colspan="2" rowspan="2" id="zutopodrucje"></td>
+			<td id="plavopodrucje" rowspan="4"></td>
+			<td></td>
+		</tr>
+		<tr id="r2">
+			<td></td>
+	
+		</tr>
+		<tr id="r3">
+			<td id="zelenopodrucje" rowspan="2"></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr id="r4">
+			<td></td>
+			<td></td>
+		
+		</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+	<td>
+	<h1 id="paragraf">PARAGRAF</h1>
+	<p><i>Pula je najveći je grad Istre, a poput ostatka regije poznata je po svojoj blagoj klimi, mirnome moru i netaknutoj prirodi. Grad ima dugu tradiciju vinarstva, ribarstva, brodogradnje i turizma, a ujedno je i tranzitna luka.
+		Grad Pula ima više od 3000 godina a nastao je na brežuljku Kaštel gdje je nastalo prvo gradinsko naselje, utvrda Histra. Prava gradska povijest započinje s Rimljanima. Službeno je ime grada bilo Colonia Pietas Iulia Pola.
+		Arena- najpoznatiji i najznačajniji spomenik, eliptičnog je oblika, s glavnom osi dužine 130 metara i kraćom osi 100 metara. U sredini je ravni prostor - borilište, a gledatelji su sjedili na kamenim stepenicama ili stajali u galeriji. Danas se koristi za ljetne priredbe - Filmski festival, Operna sezona, Konjički festival, koncerti...
+		Augustov hram- Hram na Forumu posvećen božici Romi i caru Augustu. Sagrađen između 2. godine prije Krista i 14. godine, kad je August preminuo. Oblikom je tipična hramska konstrukcija. Funkcija se hrama mijenjala: završetkom poganske antike osnovna je funkcija hrama prestala, te je korišten kao crkva, potom skladište žita, da bi početkom XIX stoljeća u njemu bio smješten muzej kamenih spomenika.
+		Slavoluk Sergijevaca - Zlatna vrata- "Zlatna vrata" - podignut 29-27. g. p.n.e. od strane obitelji Sergijevaca, a u čast tri pripadnika porodice koji su obnašali visoke činovničke dužnosti u Puli.</i></p>
+</body>
+	</td>
+</tr>
+
+		
+</table>
+
+</body>
+</html>
